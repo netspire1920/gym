@@ -20,6 +20,6 @@ document.querySelector("#s123").addEventListener("click", () =>{
 
 
 document.querySelector("#m123").addEventListener("click", () =>{
-    scroll.scrollTo(document.querySelector("#page4"));
+    scroll.scrollTo(document.querySelector("#contact"));
 })
 
