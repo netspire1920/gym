@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gym Website</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+
+
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
@@ -21,19 +24,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="h123">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link"  id="a123">About Us</a>
+                </li>
+                <li class="nav-item"id="services">
+                    <a class="nav-link" href="#" id="s123" >Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Facilities</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Membership</a>
+                    <a class="nav-link" id="m123">Membership</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact Us</a>
@@ -61,12 +61,15 @@
     <Div id="page2" data-scroll>
     <section id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6" style="text-align: center;">
+            <div class="row" style="display: flex; flex-direction: row;">
+                <div class="col-md-6" style=" display: flex; align-items: center; justify-content: center;">
                     <img src="https://images.unsplash.com/photo-1581009137042-c552e485697a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Gym Fit About" class="img-fluid" data-scroll data-scroll-speed="2">
                 </div>
-                <div class="col-md-6" data-scroll data-scroll-speed="2">
-                    <h2 class="section-header">About Gym Fit</h2>
+                <div class="col-md-6 about-des" data-scroll data-scroll-speed="2">
+                    <h2 class="section-header" style="  font-size: 36px;
+                    font-weight: 700;
+                    margin-bottom: 25px;
+                    text-transform: uppercase;">About Gym Fit</h2>
                     <p class="section-content">Gym Fit is a state-of-the-art fitness facility dedicated to helping our members achieve their fitness goals.</p><p> Our mission is to provide a welcoming and supportive environment where everyone can feel comfortable and confident in their fitness journey.</p><p>
                      Our facilities include a fully-equipped weight room, cardio area, and locker rooms, ensuring that our members have everything they need to succeed.</p><p></p> Join us today and discover the Gym Fit difference!</p>
                     <a href="#" class="btn btn-primary section-cta">Learn More</a>
@@ -81,7 +84,7 @@
     <Div id="page3">
     <Div class="Main-container">
         <div class="container2">
-            <h2 style="text-align: center; margin-bottom: 20px; margin-top: 0%;"> Gym Services</h2>
+            <h2 style="text-align: center; margin-bottom: 20px; margin-top: 0%;" class="heading"> Gym Services</h2>
             <ul class="cards" data-scroll data-scroll-speed="2">
               <li class="card">
                 <DIV style="height: 100%; width: 100%;">
@@ -172,6 +175,128 @@ Discover the exhilarating fusion of martial arts and cardio with kickboxing a dy
           </div>
     </Div>
   </Div>
+  <DIv id="page4">
+    <div class="pg4-title">
+    <h3 style="text-align: center; " class="heading" data-scroll data-scroll-speed="1">
+      Memberships
+    </h3>
+    </div>
+    <div class="pg4-content">
+      <section class="section" id="pricing">
+        <div class="pricing-container">
+
+    
+            <div class="row mt-5 pt-4">
+                <div class="col-lg-3" data-scroll data-scroll-speed="3">
+                    <div class="pricing-box mt-4">
+                        <i class="mdi mdi-account h1"></i>
+                        <h4 class="f-20">Starter</h4>
+    
+                        <div class="mt-4 pt-2">
+                            <p class="mb-2 f-18">Features</p>
+    
+                            <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>Unlimited</b>
+                                Target Audience</p>
+                            <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>1</b>
+                                User Account</p>
+                            <p class="mb-2"><i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b>100+</b>
+                                Video Tuts</p>
+                            <p class="mb-2"><i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b>Public</b>
+                                Displays
+                            </p>
+                        </div>
+    
+                        <p class="mt-4 pt-2 text-muted">Semper urna veal tempus pharetra elit habisse platea dictumst.
+                        </p>
+                        <div class="pricing-plan mt-4 pt-2">
+                            <h4 class="text-muted"><s> $9.99</s> <span class="plan pl-3 text-dark">$8.99 </span></h4>
+                            <p class="text-muted mb-0">Per Month</p>
+                        </div>
+    
+    
+                        <div class="mt-4 pt-3">
+                            <a href="" class="btn btn-primary btn-rounded">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3" data-scroll data-scroll-speed="1">
+                    <div class="pricing-box mt-4">
+                        <div class="pricing-badge">
+                            <span class="badge">Featured</span>
+                        </div>
+    
+                        <i class="mdi mdi-account-multiple h1 text-primary"></i>
+                        <h4 class="f-20 text-primary">Personal</h4>
+    
+    
+                        <div class="mt-4 pt-2">
+                            <p class="mb-2 f-18">Features</p>
+    
+                            <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>Unlimited</b>
+                                Target Audience</p>
+                            <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>1</b>
+                                User Account</p>
+                            <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>100+</b>
+                                Video Tuts</p>
+                            <p class="mb-2"><i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b>Public</b>
+                                Displays
+                            </p>
+                        </div>
+    
+                        <p class="mt-4 pt-2 text-muted">Semper urna veal tempus pharetra elit habisse platea dictumst.
+                        </p>
+    
+                        <div class="pricing-plan mt-4 pt-2">
+                            <h4 class="text-muted"><s> $19.99</s> <span class="plan pl-3 text-dark">$18.99 </span></h4>
+                            <p class="text-muted mb-0">Per Month</p>
+                        </div>
+    
+                        <div class="mt-4 pt-3">
+                            <a href="" class="btn btn-primary btn-rounded">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3" data-scroll data-scroll-speed="3">
+                    <div class="pricing-box mt-4">
+                        <i class="mdi mdi-account-multiple-plus h1"></i>
+                        <h4 class="f-20">Ultimate</h4>
+    
+    
+                        <div class="mt-4 pt-2">
+                            <p class="mb-2 f-18">Features</p>
+    
+                            <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>Unlimited</b>
+                                Target Audience</p>
+                            <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>1</b>
+                                User Account</p>
+                            <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>100+</b>
+                                Video Tuts</p>
+                            <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>Public</b>
+                                Displays
+                            </p>
+                        </div>
+    
+                        <p class="mt-4 pt-2 text-muted">Semper urna veal tempus pharetra elit habisse platea dictumst.
+                        </p>
+    
+                        <div class="pricing-plan mt-4 pt-2">
+                            <h4 class="text-muted"><s> $29.99</s> <span class="plan pl-3 text-dark">$28.99 </span></h4>
+                            <p class="text-muted mb-0">Per Month</p>
+                        </div>
+    
+                        <div class="mt-4 pt-3">
+                            <a href="" class="btn btn-primary btn-rounded">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+  </DIv>
 </DIV>
     <!-- Add JavaScript files -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

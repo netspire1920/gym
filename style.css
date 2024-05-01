@@ -30,7 +30,9 @@ body {
   background-color: #f0f0f0;
   border-bottom: 1px solid #ddd;
 }
-
+.nav-item{
+  cursor: pointer;
+}
 .navbar-brand {
   font-weight: bold;
   color: #333;
@@ -250,7 +252,7 @@ body {
 #about img {
   width: 80%;
   height: auto;
-  margin-bottom: 30px;
+
 }
 
 #about.row {
@@ -605,4 +607,118 @@ h2 {
     transition: opacity 500ms ease-in, transform 500ms ease-in;
     transition-delay: 1000ms;
   }
+}
+
+
+#page4{
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  padding:10px 30px;
+}
+
+
+#page4 h3{
+  color: white;
+}
+
+.pricing-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.membership-card {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: rgba(255, 255, 255, 0.685) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(202, 228, 255, 0.35) 0px -2px 6px 0px inset;
+}
+
+.pricing-box {
+  -webkit-box-shadow: 0px 5px 30px -10px rgba(255, 255, 255, 0.596);
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 157, 157, 0.3) 0px 30px 60px -30px, rgba(121, 188, 255, 0.61)35 0px -2px 6px 0px inset;
+
+  padding: 15px 20px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.pricing-box p{
+  margin: 0px;
+}
+
+.pricing-box .plan {
+  font-size: 34px;
+}
+
+.pricing-badge {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  right: 0;
+  width: 100%;
+  display: block;
+  font-size: 15px;
+  padding: 0;
+  overflow: hidden;
+  height: 100px;
+}
+
+.pricing-badge .badge {
+  float: right;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: -67px;
+  top: 17px;
+  position: relative;
+  text-align: center;
+  width: 200px;
+  font-size: 13px;
+  margin: 0;
+  padding: 7px 10px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #fb7179;
+}
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+p {
+    line-height: 1;
+}
+
+.btn{
+  border-radius: 10px;
+}
+.about-des{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.about-des p{
+  line-height: normal;
+}
+
+.heading{
+  width: 100%;
+  margin: 15px 10px;
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
 }
