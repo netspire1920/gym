@@ -56,3 +56,19 @@ document.querySelector("#c1234").addEventListener("click", () =>{
     scroll.scrollTo(document.querySelector("#contact"));
 })
 
+
+
+document.querySelector("#pn1").addEventListener("click", () =>{
+    scroll.scrollTo(document.querySelector("#contact"));
+})
+
+document.querySelector("#pn12").addEventListener("click", () =>{
+    scroll.scrollTo(document.querySelector("#contact"));
+})
+
+
+document.querySelector("#pn123").addEventListener("click", () =>{
+    scroll.scrollTo(document.querySelector("#contact"));
+})
+
+

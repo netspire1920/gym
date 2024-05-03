@@ -965,6 +965,17 @@ button, input {
   padding: 15px;
 }
 
+#pn1{
+  cursor: pointer;
+}
+
+#pn12{
+  cursor: pointer;
+}
+
+#pn123{
+  cursor: pointer;
+}
 
 #footer{
   cursor: pointer;
